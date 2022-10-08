@@ -4,7 +4,7 @@ e.preventDefault();
 fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s`)
   .then(resp => resp.json())
   .then(cocktail => {
-    console.log(cocktail.drinks); 
+    //console.log(cocktail.drinks); 
     cocktail.drinks.forEach(element => renderCocktails(element));
          
   });
@@ -38,7 +38,7 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
     fetch(`https://www.thecocktaildb.com/api/json/v2/9973533/search.php?s=${inputText}`)
     .then(resp => resp.json())
     .then(cocktail => {
-      console.log(cocktail);
+      //console.log(cocktail);
       let cocktailTitle = document.createElement('h3');
       document.getElementById("cocktail-container").appendChild(cocktailTitle);
       cocktailTitle.innerHTML= "Cocktail List"
@@ -49,12 +49,24 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${inputText}`)
     .then(resp => resp.json())
     .then(cocktail => {
-      console.log(cocktail);
-      //cre
+
+      let cocktailIds = cocktail.drinks.map(element => element.idDrink);
+      
+        for(const drinkId in cocktailIds){
+          //console.log(cocktailIds[drinkId]);
+          fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${cocktailIds[drinkId]}`)
+          .then((resp => resp.json()))
+          .then(drink=> {
+              
+              drink.drinks.forEach(element => renderCocktails(element));
+          })
+        }
+
+      // Create and set Cocktail Title
       let cocktailTitle = document.createElement('h3');
       document.getElementById("cocktail-container").appendChild(cocktailTitle);
       cocktailTitle.innerHTML= "Cocktail List"
-      cocktail.drinks.forEach(element => renderCocktails(element));
+
     })
   }else if(firstLetterFilter.checked){
     
