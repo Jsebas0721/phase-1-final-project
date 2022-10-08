@@ -30,7 +30,6 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
   let firstLetterFilter = document.getElementById("firstLetterFilter");
   let inputText = document.getElementById("input-text").value;
   
-
   document.getElementById("cocktail-container").innerHTML="";
 
   if(nameFilter.checked){
