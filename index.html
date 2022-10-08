@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Cocktail Finder 🍸</title> 
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body> 
+    <div id="cocktail-header">
+        <h1>Cocktail Finder 🍸</h1> 
+    </div>
+    <div class="search-container">
+      <form class="search-form">
+        <h2>Search Cocktail By: </h2>
+        <input id="nameFilter" type="radio" name="search-filters" value="name"/> Name 
+        <input id="liquorFilter" type="radio" name="search-filters" value="Liquor"/> Liquor 
+        <input id="firstLetterFilter" type="radio" name="search-filters" value="firstLetter"/> First Letter 
+        <input
+            type="text"
+            id="input-text"
+            name="name"
+            value=""
+            placeholder="Cocktail Details..."
+        />
+        <input
+            type="submit"
+            name="submit"
+            value="Search"
+            class="submit"
+        />
+      </form>
+    </div>
+    <br />
+    <div id="cocktail-container"class="c-container">
+        <h3>Cocktail List</h3>
+    </div>   
+  </body>
+  <script type="text/javascript" src="js/index.js"></script>
+</html>
