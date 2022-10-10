@@ -111,7 +111,10 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
     
     //Add cards to cocktail container
     cocktailContainer.appendChild(cocktailCard);
-    cocktailCard.setAttribute("class", "cocktail-card")
+    cocktailCard.setAttribute("class", "cocktail-card");
+    ingredientsTitle.setAttribute("class", "ingredients-title");
+    cocktailIngredients.setAttribute("class","cocktail-ingredients");
+    cocktailInstructions.setAttribute("class", "cocktail-instructions");
     //Add childs to cocktail card
     cocktailCard.appendChild(cocktailName);
     cocktailCard.appendChild(cocktailImage);
@@ -123,7 +126,7 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
     console.log(cocktailKeys);
     cocktailKeys.forEach(key =>{
       if(cocktail[key] === null){
-        cocktail[key] = "";
+        cocktail[key] ='';
         
       }
     })
@@ -135,10 +138,11 @@ document.querySelector(".search-form").addEventListener('submit', function(e){
     cocktailImage.setAttribute("src",`${cocktail.strDrinkThumb}`);
     cocktailImage.setAttribute("class", "cocktail-img");
     ingredientsTitle.innerHTML= "Ingredients: ";
-    cocktailIngredients.innerHTML= `${cocktail.strMeasure1} \u00A0 ${cocktail.strIngredient1}<br>
-                                    ${cocktail.strMeasure2} \u00A0 ${cocktail.strIngredient2}<br>
-                                    ${cocktail.strMeasure3} \u00A0 ${cocktail.strIngredient3}<br>
-                                    ${cocktail.strMeasure4} \u00A0 ${cocktail.strIngredient4}`;
+    cocktailIngredients.innerHTML= `${cocktail.strMeasure1}&ensp; ${cocktail.strIngredient1}<br>
+                                    ${cocktail.strMeasure2}&ensp; ${cocktail.strIngredient2}<br>
+                                    ${cocktail.strMeasure3}&ensp; ${cocktail.strIngredient3}<br>
+                                    ${cocktail.strMeasure4}&ensp; ${cocktail.strIngredient4}<br>
+                                    ${cocktail.strMeasure5}&ensp; ${cocktail.strIngredient5}`;
     cocktailInstructions.innerHTML =`${cocktail.strInstructions}`;
    
     
