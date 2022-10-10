@@ -5,8 +5,8 @@ body{
     text-align: center;
     color: aliceblue;
     border: grey solid 3px;
-    padding: 1rem;
-    width: 15rem;
+    padding: 4rem;
+    width: 20rem;
     height: 25rem;
     display: inline-table;
     margin: 1rem 1rem;
@@ -15,8 +15,20 @@ body{
 
 .cocktail-img {
     justify-self: center;
-    height: 3rem;
+    height: 5rem;
     width: auto;
+}
+
+.ingredients-title {
+    text-align: justify;
+}
+
+.cocktail-ingredients{
+    text-align: justify;
+}
+
+.cocktail-instructions {
+    text-align: justify;
 }
 
 .c-container {
