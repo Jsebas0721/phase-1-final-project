@@ -1,6 +1,18 @@
 body{
     background-color: black;
+    background-image: url('https://images.unsplash.com/photo-1587223962930-cb7f31384c19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    background-size: 10rem;
 }
+
+#cocktail-header h1 {
+    font-family: "Lucida handwriting", cursive;
+    text-align: center;
+}
+
+.search-container h2 {
+    font-family: "Lucida handwriting", cursive;
+}
+
 .cocktail-card {
     text-align: center;
     color: aliceblue;
@@ -35,7 +47,8 @@ body{
     text-align: center;
     color: #f7f4f4;
     background-color: black;
-    margin: 1rem; 
+    margin: 10rem;
+    margin-top: 0.5rem; 
 }
 
 .search-container{
