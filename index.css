@@ -7,10 +7,13 @@ body{
 #cocktail-header h1 {
     font-family: "Lucida handwriting", cursive;
     text-align: center;
+    background-color: rgb(199, 132, 31); 
+    margin: 0rem;
 }
 
 .search-container h2 {
     font-family: "Lucida handwriting", cursive;
+    background-color: rgb(199, 132, 31);
 }
 
 .cocktail-card {
@@ -52,11 +55,12 @@ body{
 }
 
 .search-container{
-    background-color: blanchedalmond;
+    background-color: rgb(199, 132, 31);
     text-align: center;
 }
 
 #cocktail-header{
-    background-color: blanchedalmond;
+    background-color: rgb(199, 132, 31);
     text-align: center;
+   
 }
