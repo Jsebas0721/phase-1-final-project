@@ -4,6 +4,12 @@ This is my final_project readme file
 
 Cocktail Finder is a tool open to the public to get drink recipes.
 
+## Description
+
+Cocktail Finder is more than an App, is a tool that everyody can use to find a Cocktail Recipe of their taste.
+it provides an extensive Cocktails list which can be filtered by Name, Liquor Ingredient or First Letter.
+Each drink card provides its Name, Picture, Ingredients and Preparation instructions.
+
 ## Installation
 
 1. Open up [GitHub Repository](https://github.com/Jsebas0721/phase-1-final-project-cocktail-finder) in your Web browser
