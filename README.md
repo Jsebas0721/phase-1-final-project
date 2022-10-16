@@ -33,9 +33,8 @@ $ explorer.exe index.html
 
 ## Usage
 
-<div style="width:60px ; height:60px">
-![Filter by name](file:///D:/FLATIRON%20SCHOOL/BLOG%20Post%20Phase%201/Images/filterbyname.png "dd") 
-<div>
+![Filter by name](//user-images.githubusercontent.com/108071188/196058749-7972d996-cf25-4945-92da-0e1a2237ecda.PNG) 
+
 
 ## Contributing
 
