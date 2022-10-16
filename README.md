@@ -15,7 +15,7 @@ Cocktail Finder is a tool open to the public to get drink recipes.
 ```bash
 cd ~/folder-path
 ```
-4. Paste URL Copied and clone the Repo. Enter the following command ```git clone paste-repo-url```
+4. Paste URL Copied and clone the Repo. Enter the following command ```$ git clone paste-repo-url```
 
 
 ## Usage
