@@ -33,7 +33,7 @@ $ explorer.exe index.html
 
 ## Usage
 
-![Filter by name image](D:\FLATIRON SCHOOL\BLOG Post Phase 1\Images\filterbyname.png "filter by name")
+![Filter by name](file:///D:/FLATIRON%20SCHOOL/BLOG%20Post%20Phase%201/Images/filterbyname.png "dd") 
 
 
 ## Contributing
