@@ -6,7 +6,7 @@ Cocktail Finder is a tool open to the public to get drink recipes.
 
 ## Installation
 
-1. Open up [GitHub Repository](https://github.com/Jsebas0721/phase-1-final-project-cocktail-finder) in your Web browser.
+1. Open up [GitHub Repository](https://github.com/Jsebas0721/phase-1-final-project-cocktail-finder) in your Web browser
 2. Fork and Clone the Repository to your machine:
    - Click in the green button(Code)
    - Make sure the SSH tab is selected 
@@ -18,6 +18,11 @@ cd ~/folder-path
 4. Paste URL Copied and clone the Repo. Enter the following command: 
 ```
 $ git clone paste-repo-url
+```
+5. Navigate to the Repo's folder using cd command
+6. Open and Run application by using the following command:
+```
+$ explorer.exe index.html
 ```
 
 
