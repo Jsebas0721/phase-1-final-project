@@ -1,4 +1,3 @@
-This is my final_project readme file
 
 # Cocktail Finder
 
@@ -33,7 +32,7 @@ $ explorer.exe index.html
 
 ## Usage
 
-![Filter by name](/108071188/196058749-7972d996-cf25-4945-92da-0e1a2237ecda.PNG) 
+![Filter by name](/108071188/196058749-7972d996-cf25-4945-92da-0e1a2237ecda.PNG?raw=true) 
 
 
 ## Contributing
