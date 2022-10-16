@@ -31,8 +31,9 @@ $ git clone paste-repo-url
 $ explorer.exe index.html
 ```
 
-
 ## Usage
+
+![Filter by name image](D:\FLATIRON SCHOOL\BLOG Post Phase 1\Images\filterbyname.png "filter by name")
 
 
 ## Contributing
