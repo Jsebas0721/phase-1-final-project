@@ -32,7 +32,8 @@ $ explorer.exe index.html
 
 ## Usage
 
-![Filter](../108071188/196058749-7972d996-cf25-4945-92da-0e1a2237ecda.PNG?raw=true) 
+![filterbyname](https://user-images.githubusercontent.com/108071188/196213671-76c05422-ae6d-4aec-ac29-8747c1789d1f.PNG)
+
 
 
 ## Contributing
