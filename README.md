@@ -5,7 +5,7 @@ Cocktail Finder is a tool open to the public to get drink recipes.
 
 ## Description
 
-CCocktail Finder is more than an App, is a tool that everybody can use to find Cocktail Recipes to their taste.
+Cocktail Finder is more than an App, is a tool that everybody can use to find Cocktail Recipes to their taste.
 It provides an extensive Cocktails list which can be filtered by Name, Liquor Ingredient, or First Letter.
 Each drink card provides its Name, Picture, Ingredients, and Preparation instructions.
 
