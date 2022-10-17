@@ -32,6 +32,9 @@ $ explorer.exe index.html
 
 ## Usage
 
+Filter by Name:
+- Select Name filter in the Search Bar and type a cocktail name
+
 ![filterbyname](https://user-images.githubusercontent.com/108071188/196213671-76c05422-ae6d-4aec-ac29-8747c1789d1f.PNG)
 
 
