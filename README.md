@@ -37,6 +37,10 @@ Filter by Name:
 
 ![filterbyname](https://user-images.githubusercontent.com/108071188/196213671-76c05422-ae6d-4aec-ac29-8747c1789d1f.PNG)
 
+Filter by Liquor:
+- Select Liquor filter in the Search Bar and type a liquor ingredient
+
+![filterbyliquor](https://user-images.githubusercontent.com/108071188/196215006-a02095eb-4e7e-49a7-8a14-07bab07c009a.PNG)
 
 
 ## Contributing
