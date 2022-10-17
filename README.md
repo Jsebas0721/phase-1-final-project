@@ -40,7 +40,12 @@ Filter by Name:
 Filter by Liquor:
 - Select Liquor filter in the Search Bar and type a liquor ingredient
 
-![filterbyliquor](https://user-images.githubusercontent.com/108071188/196215006-a02095eb-4e7e-49a7-8a14-07bab07c009a.PNG)
+![filterbyliquor](https://user-images.githubusercontent.com/108071188/196215740-749fc5ac-1a14-4390-a270-68ec2d80d1b7.PNG)
+
+Filter by First Letter:
+- Select First Letter filter in the Search Bar and type a letter
+
+![filterbyfirstletter](https://user-images.githubusercontent.com/108071188/196215971-09bb320a-3da6-427d-8a6e-0dd88e1d587e.PNG)
 
 
 ## Contributing
